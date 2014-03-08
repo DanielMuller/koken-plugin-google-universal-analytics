@@ -1,0 +1,31 @@
+{
+  "name": "Google Universal Analytics",
+  "version": "1.0",
+  "description": "Automatically add Google Universal Analytics code to any theme.",
+  "demo": "http://danielmuller.asia",
+  "author": {
+    "name": "Daniel Muller",
+    "link": "http://danielmuller.asia"
+  },
+  "data": {
+    "tracking_id": {
+      "label": "Tracking ID",
+      "info": "You can find your tracking info by logging into Google Analytics, clicking Admin, then selecting the Tracking Info tab. Example: UA-1234567-8",
+      "type": "string",
+      "validation": {
+        "type": "regex",
+        "rule": "^UA\\-[0-9]{4,10}\\-\\d{1,2}$",
+        "error_message": "Not a valid tracking ID. It should be in this format: UA-XXXXXXXX-X"
+      }
+    },
+    "tracking_domain": {
+      "label": "Tracking Domain",
+      "info": "The Tracking Domain. Generally yoursite.com or sub.yoursite.com",
+      "type": "string",
+      "validation": {
+        "type": "not_empty",
+        "error_message": "You need to provide a tracking domain"
+      }
+    }
+  }
+}
