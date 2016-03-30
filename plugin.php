@@ -17,7 +17,7 @@ class MesphotosGoogleUniversalAnalytics extends KokenPlugin {
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', '{$this->data->tracking_id}', '{$this->data->tracking->domain}');
+  ga('create', '{$this->data->tracking_id}', '{$this->data->tracking_domain}');
   ga('send', 'pageview');
 
 </script>
