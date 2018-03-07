@@ -26,6 +26,15 @@
         "type": "not_empty",
         "error_message": "You need to provide a tracking domain"
       }
+    },
+    "tracking_js": {
+      "label": "Tracking Javascript",
+      "info": "The Tracking path to analytics.js Default is www.google-analytics.com/analytics.js ",
+      "type": "string",
+      "validation": {
+        "type": "not_empty",
+        "error_message": "You need to provide a link to analytics.js"
+      }
     }
   }
 }
