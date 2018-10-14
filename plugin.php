@@ -18,6 +18,8 @@ class MesphotosGoogleUniversalAnalytics extends KokenPlugin {
   })(window,document,'script','//{$this->data->tracking_js}','ga');
 
   ga('create', '{$this->data->tracking_id}', '{$this->data->tracking_domain}');
+  ga('set', 'allowAdFeatures', false);
+  ga('set', 'anonymizeIp', true);
   ga('send', 'pageview');
 
 </script>
