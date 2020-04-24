@@ -1,5 +1,14 @@
 Google Universal Analytics plugin for Koken
 ===========================================
+Disclaimer
+-----------------
+This repo is now archieved.
+
+I am no longer a user of [Koken](http://koken.me/) and have migrated my Gallery to [Yapawa](https://yapawa.net/), a gallery site that I developped.
+
+Thank you Koken Team for your awesome tool that allowed me to host my pictures during many years.
+
+---
 
 This [Koken](http://koken.me) plugin is based on Koken's plugin [koken-google-analytics](https://github.com/koken/koken-google-analytics). It automatically generates and inserts Google Universal Analytics tracking code into your published site, regardless of what theme you have selected.
 
